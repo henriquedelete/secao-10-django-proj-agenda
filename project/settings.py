@@ -115,12 +115,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-<<<<<<< Updated upstream
-STATIC_URL = 'static/'
-=======
 STATIC_URL = "static/"
 STATICFILES_DIR = (BASE_DIR / "base_static",)
->>>>>>> Stashed changes
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
